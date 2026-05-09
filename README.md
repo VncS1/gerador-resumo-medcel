@@ -18,8 +18,8 @@ Aplicacao desktop em Python para extrair audio de aulas em streaming (HLS/m3u8) 
 
 ## Instalacao (Ambiente de Desenvolvimento Windows)
 
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/VncS1/gerador-resumo-medcel
+cd gerador-resumo-medcel
 
 python -m venv venv
 
