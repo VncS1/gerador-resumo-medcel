@@ -33,7 +33,7 @@ python app_medcel.py
 
 ## Geracao da Build (.exe)
 
-python -m PyInstaller --noconsole --onefile app_medcel.py
+python -m PyInstaller --noconsole --onefile --icon=icone_medcel.ico --name="Assistente MedCel" app_medcel.py
 
 ## Estrutura de Distribuicao (Deploy)
 
