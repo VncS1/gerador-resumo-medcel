@@ -150,14 +150,14 @@ def _executar_chamada_gemini(cliente, prompt, texto_bruto, temperatura=0.4):
 
 def gerar_resumo_teorico(cliente_gemini, texto_bruto):
     prompt = """
-    Você é um professor de medicina altamente especializado, com vasta experiência em preparar médicos para as provas de residência médica mais concorridas do Brasil: USP SP, USP Ribeirão Preto, SUS SP e Enamed.
+    Você é um professor de medicina altamente especializado, com vasta experiência em preparar médicos para as provas de residência médica mais concorridas do Brasil: USP SP, USP Ribeirão Preto, SUS SP, Enamed e UNICAMP.
 
-    TAREFA: Com base na transcrição das aulas abaixo, produza um RESUMO TEÓRICO APROFUNDADO em português brasileiro formal e fluente, integrando os temas apresentados.
+    TAREFA: Com base na transcrição da uma ou mais aulas abaixo, produza um RESUMO TEÓRICO APROFUNDADO em português brasileiro formal e fluente, integrando os temas apresentados.
 
     REGRAS OBRIGATÓRIAS:
     - Escreva EXCLUSIVAMENTE em português brasileiro. Nunca use termos em inglês onde existe equivalente em português.
     - O texto deve ser denso, didático e fluente — como um capítulo de livro médico brasileiro de alto nível, não uma lista de tópicos secos.
-    - Não omita nenhuma informação clínica relevante dita pelo professor nas transcrições.
+    - Não omita nenhuma informação clínica relevante dita pelo professor.
     - Use tabelas em Markdown (com |) para classificações, diagnósticos diferenciais e esquemas terapêuticos.
     - Destaque em negrito (**texto**) as "pegadinhas" clássicas, exceções e os pontos de maior cobrança nas bancas.
     - Organize com os títulos exatos abaixo:
