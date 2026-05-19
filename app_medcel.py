@@ -156,7 +156,7 @@ def gerar_resumo_teorico(cliente_gemini, texto_bruto):
 
     REGRAS OBRIGATÓRIAS:
     - Escreva EXCLUSIVAMENTE em português brasileiro. Nunca use termos em inglês onde existe equivalente em português.
-    - O texto deve ser denso, didático e fluente — como um capítulo de livro médico brasileiro de alto nível, não uma lista de tópicos secos.
+    - O texto deve ser denso, didático, fluente e completo — como um capítulo de livro médico brasileiro de alto nível, não uma lista de tópicos secos.
     - Não omita nenhuma informação clínica relevante dita pelo professor.
     - Use tabelas em Markdown (com |) para classificações, diagnósticos diferenciais e esquemas terapêuticos.
     - Destaque em negrito (**texto**) as "pegadinhas" clássicas, exceções e os pontos de maior cobrança nas bancas.
